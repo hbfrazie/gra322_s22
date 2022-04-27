@@ -1,0 +1,495 @@
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    padding: 0 35px;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    padding: 0 35px;
+}
+
+
+.animation-1 {
+    background-color: black;
+}
+
+h1 {
+    font-family: skolar-latin;
+    font-weight: 300;
+    font-size: 24px;
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 4px;
+    padding-left: 35px;
+}
+
+.projects {
+    font-family: skolar-latin;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px; 
+    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 35px;
+}
+
+h2 {
+    font-family: skolar-latin;
+    font-weight: 300;
+    font-size: 18px; 
+    font-style: italic;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+.vis-comm {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+
+hr {
+    height: .75px;
+    border: 0 none;
+    background-color: black;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+p {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 9px;
+}
+
+.arrow {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    outline:0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.summary-title {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+.summary {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.arrow {
+    padding-left: 35px;
+}
+
+.arrow:hover polyline,
+.arrow:focus polyline {
+  stroke-width: 3;
+}
+
+.arrow:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+.heirloom-goods-img {
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.hg {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+.city-slicker-img {
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.cs {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+.charlies-cafe-img {
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.cc {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 35px;
+}
+.level-one-img {
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.lo {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 35px;
+    padding-bottom: 50px;
+}
+
+.final-animation {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 100px;
+}
+
+.animation-slider {
+    background-color: black;
+}
+
+.animation {
+    max-height: 800px;
+}
+
+.site-description {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.hf {
+    padding-bottom: 8px;
+    padding-left: 35px;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.gra {
+    padding-bottom: 50px;
+    padding-left: 35px;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    
+}
+
+.heirloom-goods-desktop {
+    padding-bottom: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0 auto;
+}
+
+.heirloom-goods-mobile {
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.hg1 {
+    max-width: 180px;
+}
+
+.hg2 {
+    max-width: 180px;
+}
+
+.hg3 {
+    max-width: 180px;
+}
+
+.hg4 {
+    max-width: 180px;
+}
+
+.cityslicker-prototype {
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.cityslicker-desktop-final {
+    padding-bottom: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0 auto;
+}
+
+.charlies-desktop-final {
+    padding-bottom: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0 auto;
+}
+
+.charlies-cafe-final-mobile {
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.end {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 100px; 
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .grid {
+        display: grid;
+        gap: 35px;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 35px;
+        max-width: 1650px;
+        margin: 0 auto; 
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 35px;
+        margin: 0 auto; 
+    }
+
+    .grid-6 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+        padding: 0 35px;
+    }
+
+    h1 {
+        font-family: skolar-latin;
+        font-weight: 300;
+        font-size: 30px;
+        font-style: italic;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .header-2 {
+        font-family: skolar-latin;
+        font-weight: 300;
+        font-size: 24px; 
+        font-style: italic;
+        padding-bottom: 100px;
+    }
+
+    .vis-comm {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-top: 42.5px;
+        justify-self: end;
+    }
+
+    hr {
+        height: .75px;
+        border: 0 none;
+        background-color: black;
+    }
+
+    .projects {
+        font-family: skolar-latin;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 24px; 
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    .hf {
+        padding-bottom: 8px;
+        padding-left: 35px;
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .gra {
+        padding-bottom: 50px;
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        
+    }
+
+    .summary-title {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: opx;
+    }
+
+    .summary {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 100px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .heirloom-goods-img {
+        padding-bottom: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .hg {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .heirloom-goods-mobile {
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    
+    .slider1 {
+        padding-left: 0px;
+    }
+
+    .city-slicker-img {
+        padding-bottom: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .cs {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+    
+    .charlies-cafe-img {
+        padding-bottom: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .cc {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-left: 0px;
+    }
+
+    .level-one-img {
+        padding-bottom: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .lo {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    .final-animation {
+        padding-bottom: 150px;
+        margin: 0 auto;
+    }
+
+    .site-description {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .end {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 15px;
+        padding-top: 100px; 
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+    .grid-5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+        padding: 0 200px;
+}
+
+    .slider1 {
+        padding-left: 275px;
+    }
+
+    .hg-mobile {
+        font-family: skolar-latin;
+        font-weight: 300;
+        font-size: 24px; 
+        font-style: italic;
+        padding-bottom: 95px;
+        padding-left: 35px;
+
+    }
+
+    .heirloom-goods-mobile {
+        margin: 0 auto;
+        padding-bottom: 150px;
+        padding-left: 0px;
+    }
+
+    .cityslicker-prototype {
+        margin: 0 auto;
+        padding-bottom: 150px;
+        padding-left: 0px;
+    }
+ 
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: 1650px;
+    } 
+}

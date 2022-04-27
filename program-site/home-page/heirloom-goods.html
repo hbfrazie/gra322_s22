@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Hayden Frazier - GRA 322 - S22</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Load Styles -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/myn8gan.css">
+  <link rel="stylesheet" href="https://use.typekit.net/myn8gan.css">
+
+</head>
+
+<body>
+  <!-- Add your content here -->
+  <header>
+    <div class="grid">
+      <h1>Hayden Frazier</h1>
+      <p class="vis-comm">Visual Communication Design</p>
+    </div>
+    <hr>
+    <a href="index.html"><button class="arrow"> <svg width="10px" height="20px" viewBox="0 0 50 80" xml:space="preserve">
+      <polyline fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+    45.63,75.8 0.375,38.087 45.63,0.375 "/>
+    </svg> </button></a>
+  </header>
+ 
+  <div>
+      <p class="summary-title grid">SINGLE PAGE MARKETING SITE DESIGN</p>
+      <p class="summary grid">For this project we were tasked with either selecting, or creating, a company to design a single page responsive website for. The design was to have 4-5 body sections, with a header and footer as well. I chose to create a consignment clothing company that solely specialized in reselling the hottest trends in streetwear.  For it being my first time attempting website design, I thoroughly enjoyed the process and was proud of the final. </p>
+
+    <div class="grid-2">
+      <div>
+        <h2 class="header-2 grid">Final Desktop Prototype</h2>
+        <a target="_blank" href="https://xd.adobe.com/view/2724b499-e5a4-4281-9d8f-5eebe7c30258-7277/"><img class="heirloom-goods-desktop" src="img/Heirloom-goods-desktop.png"/> </a>
+      </div>
+      <div>
+        <h2 class="header-2 hg-mobile grid grid-2">Final Mobile Prototype</h2>
+        <a target="_blank" href="https://xd.adobe.com/view/44ee0a61-1393-40a6-9f40-0b70dcb8e972-11bd/"><img class="heirloom-goods-mobile" src="img/heirloom-goods-mobile.png"/></a>
+      </div>
+    </div>
+
+        <h2 class="header-2 grid">Process</h2>
+
+        <div class="slider1">
+          <div><img class="hg1" src="img/heirloom-goods-1.png" alt="hgprocess-1"></div>
+          <div><img class="hg2" src="img/heirloom-goods-2.png" alt="hgprocess-2"></div>
+          <div><img class="hg3" src="img/heirloom-goods-3.png" alt="hgprocess-3"></div>
+          <div><img class="hg4" src="img/heirloom-goods-4.png" alt="hgprocess-4"></div>
+        </div>
+        
+        <p class="end">End of project section</p>
+        
+  </div> 
+
+  <!-- Load Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    var slider1 = tns({
+      container: '.slider1',
+      items: 2,
+      controls: false,
+      mouseDrag:true,
+      nav: false,
+      autoplayButtonOutput: false,
+      gutter: 35,
+      center: true,
+      responsive: {
+        800: {
+          edgePadding: 90,
+          autoplay:true,
+          items: 2,
+          gutter: 35,
+        },
+      
+        1200: {
+          edgePadding: 120,
+          autoplay:true,
+          items: 2,
+          gutter: 0,
+        }
+      }
+  });
+  </script>
+
+</body>
+
+</html>
