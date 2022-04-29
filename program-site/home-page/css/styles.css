@@ -31,7 +31,7 @@ h1 {
     font-family: skolar-latin;
     font-weight: 300;
     font-style: italic;
-    font-size: 18px; 
+    font-size: 24px; 
     padding-top: 50px;
     padding-bottom: 55px;
     padding-left: 35px;
@@ -40,7 +40,7 @@ h1 {
 h2 {
     font-family: skolar-latin;
     font-weight: 300;
-    font-size: 18px; 
+    font-size: 24px; 
     font-style: italic;
     padding-bottom: 50px;
     padding-left: 35px;
@@ -49,7 +49,7 @@ h2 {
 .vis-comm {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 15px;
     padding-left: 35px;
 }
@@ -80,7 +80,7 @@ p {
 .summary-title {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 10px;
     padding-left: 35px;
 }
@@ -88,7 +88,7 @@ p {
 .summary {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 100px;
     padding-left: 35px;
     padding-right: 35px;
@@ -117,7 +117,7 @@ p {
 .hg {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 50px;
     padding-left: 35px;
 }
@@ -131,7 +131,7 @@ p {
 .cs {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 50px;
     padding-left: 35px;
 }
@@ -145,7 +145,7 @@ p {
 .cc {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-left: 35px;
 }
 .level-one-img {
@@ -157,7 +157,7 @@ p {
 .lo {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-left: 35px;
     padding-bottom: 50px;
 }
@@ -183,7 +183,7 @@ p {
     padding-right: 35px;
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .hf {
@@ -258,7 +258,7 @@ p {
 .end {
     font-family: proxima-nova;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 100px; 
     padding-bottom: 50px;
     padding-left: 35px;
@@ -299,10 +299,21 @@ p {
         padding-left: 0px;
     }
 
+
+    .projects {
+        font-family: skolar-latin;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 30px; 
+        padding-top: 50px;
+        padding-bottom: 55px;
+        padding-left: 35px;
+    }
+
     .header-2 {
         font-family: skolar-latin;
         font-weight: 300;
-        font-size: 24px; 
+        font-size: 30px; 
         font-style: italic;
         padding-bottom: 100px;
     }
@@ -321,15 +332,6 @@ p {
         height: .75px;
         border: 0 none;
         background-color: black;
-    }
-
-    .projects {
-        font-family: skolar-latin;
-        font-weight: 300;
-        font-style: italic;
-        font-size: 24px; 
-        padding-top: 50px;
-        padding-bottom: 55px;
     }
 
     .hf {
@@ -439,7 +441,7 @@ p {
         padding-bottom: 100px;
         font-family: proxima-nova;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .end {
@@ -453,6 +455,23 @@ p {
 }
 
 @media screen and (min-width: 1300px) {
+
+    .summary-title {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+    }
+    
+    .summary {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 100px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 
     .grid-5 {
         display: grid;
@@ -491,5 +510,76 @@ p {
         display: grid;
         grid-template-columns: 2fr 1fr;
         max-width: 1650px;
-    } 
-}
+    }
+    
+    .vis-comm {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-top: 42.5px;
+        justify-self: end;
+    }
+
+    .lo {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    .hg {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .cc {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .cs {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+
+    .site-description {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .hf {
+        padding-bottom: 8px;
+        padding-left: 35px;
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .gra {
+        padding-bottom: 50px;
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .end {
+        font-family: proxima-nova;
+        font-weight: 300;
+        font-size: 18px;
+        padding-top: 100px; 
+        padding-bottom: 50px;
+    }
+
+    }
