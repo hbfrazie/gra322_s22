@@ -46,15 +46,9 @@ body {
  padding-bottom: 100px;
  text-align: center;
  }
-
- .nav-bar {
-   background-image: url(/img/coffee-beans.jpg);
-   background-size: 100%;
-   background-repeat: no-repeat;
- }
   
  .logos {
-  color: #fff;
+  color: #6A5B5A;
   padding: 50px 0;
   font-size: 11px;
   font-style: bold;
@@ -334,7 +328,7 @@ body {
  }
 
  .logos {
-  color: #fff;
+  color: #6A5B5A;
   padding: 50px 0;
   font-size: 22px;
   font-style: bold;
